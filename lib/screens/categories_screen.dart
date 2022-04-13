@@ -73,7 +73,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                     items: cat['items'].toString(),
                     isHome: false,
                     tap: (){
-                      setState((){catie = "${cat['name']}";});
+                      //setState((){catie = "${cat['name']}";});
                     },
                   );
                 },
